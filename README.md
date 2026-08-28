@@ -4,7 +4,9 @@ A self-balancing robot is essentially a mechanized inverted pendulum that uses e
 
 A two-wheeled self-balancing robot based on the classic **Inverted Pendulum** control problem. Built with an **Arduino Uno**, an **MPU6050 6-DOF IMU** (running on-chip Digital Motion Processor / DMP), and an **L298N Dual H-Bridge Motor Driver** powering geared DC BO motors.
 
----
+---<img width="1242" height="2208" alt="IMG_5718 JPG" src="https://github.com/user-attachments/assets/aa615b7b-159e-436a-9424-abd291291e92" />
+
+
 
 ## 📸 Chassis & Hardware Layout
 
