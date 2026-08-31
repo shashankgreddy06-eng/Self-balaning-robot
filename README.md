@@ -1,6 +1,6 @@
 # Self-balaning-robot
 A self-balancing robot is essentially a mechanized inverted pendulum that uses electronic vestibular feedback (IMU) to mimic the human reflex of stepping beneath a falling center of mass.
-# 🤖 Two-Wheeled Self-Balancing Robot
+#  Two-Wheeled Self-Balancing Robot
 
 A two-wheeled self-balancing robot based on the classic **Inverted Pendulum** control problem. Built with an **Arduino Uno**, an **MPU6050 6-DOF IMU** (running on-chip Digital Motion Processor / DMP), and an **L298N Dual H-Bridge Motor Driver** powering geared DC BO motors.
 
@@ -8,7 +8,7 @@ A two-wheeled self-balancing robot based on the classic **Inverted Pendulum** co
 
 
 
-## 📸 Chassis & Hardware Layout
+##  Chassis & Hardware Layout
 
 The physical robot features a 3-tier cardboard chassis structure:
 * **Top Deck:** MPU6050 6-Axis IMU sensor mounted centrally for angle and acceleration measurement.
@@ -17,7 +17,7 @@ The physical robot features a 3-tier cardboard chassis structure:
 
 ---
 
-## 🛠️ Hardware Components
+##  Hardware Components
 
 | Component | Quantity | Description |
 | :--- | :---: | :--- |
@@ -32,7 +32,7 @@ The physical robot features a 3-tier cardboard chassis structure:
 
 ---
 
-## 🔌 Pin Connections & Wiring
+##  Pin Connections & Wiring
 
 ### 1. MPU6050 to Arduino Uno
 | MPU6050 Pin | Arduino Pin | Notes |
@@ -58,7 +58,7 @@ The physical robot features a 3-tier cardboard chassis structure:
 
 ---
 
-## 📦 Required Libraries
+##  Required Libraries
 
 Install the following libraries via the Arduino Library Manager (`Sketch` > `Include Library` > `Manage Libraries...`):
 
@@ -68,7 +68,7 @@ Install the following libraries via the Arduino Library Manager (`Sketch` > `Inc
 
 ---
 
-## 💻 Arduino Firmware
+##  Arduino Firmware
 
 ```cpp
 // Self Balancing Robot - Full Working Code
@@ -240,7 +240,7 @@ void loop()
 
 ---
 
-## ⚙️ Calibration & PID Tuning Guide
+##  Calibration & PID Tuning Guide
 
 1. **IMU Calibration:**
    * Place the robot on a flat, level surface and run an MPU6050 calibration sketch to obtain accurate gyro and accelerometer offsets.
